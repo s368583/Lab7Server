@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="javax.activation-api-1.2.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Lab6Server/src/javax.activation-api-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Lab6Server/src/jaxb-api-2.4.0-b180830.0359.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Lab6Server/src/jdom2-2.0.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Lab6Server:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Lab6Server_jar</output-path>
+    <root id="archive" name="Lab6Server.jar">
+      <element id="module-output" name="Lab6Server" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Lab6Server/out/production/Lab6Server/gson-2.8.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Lab6Server/src/gson-2.8.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Lab6Server/src/jakarta.activation-1.2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Lab6Server/src/jakarta.xml.bind-api-2.3.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Lab6Server/src/jaxb-impl-2.3.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Lab6Server/src/javax.activation-api-1.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Lab6Server/src/jaxb-api-2.4.0-b180830.0359.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Lab6Server/src/jdom2-2.0.6.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
