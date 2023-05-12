@@ -54,7 +54,8 @@ public class Lab5 {
 
         System.out.printf("Имя файла: %s\n", fileName);
 
-        File f = new File("/home/studs/s368583/Lab6Server/Lab6Server/src/" + fileName);
+//        File f = new File("/home/studs/s368583/Lab6Server/Lab6Server/src/" + fileName);
+        File f = new File(fileName);
         if (f.isFile() && f.canRead()) {
             System.out.println("файл существует");
         } else {

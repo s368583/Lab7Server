@@ -32,16 +32,21 @@ public class Remove_greater extends Command {
         String data = (String) object;
         LabWork labWork2 = gson.fromJson(data, dataType);
 
+/*
         int count = 0;
         Iterator<LabWork> iter = Lab5.collection.iterator();
         while(iter.hasNext()) {
             LabWork l = iter.next();
             if(l.compareTo(labWork2) > 0) {
-                Lab5.collection.remove(l);
+                //Lab5.collection.remove(l);
                 count++;
             }
         }
-        Lab5.output = "\nПодходящие элементы (" + count + ") были удалены";
+*/
+
+        Lab5.collection.stream().filter(x -> x.compareTo(labWork2)>0).forEach(Lab5.collection::remove);
+        //Lab5.output = "\nПодходящие элементы (" + count + ") были удалены";
+        Lab5.output = "\nПодходящие элементы () были удалены";
 
     }
 

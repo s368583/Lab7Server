@@ -18,9 +18,8 @@ public class Server {
     private final String hostname;
     private final int port;
 
-    private DatagramSocket serverSocket;
+    //private DatagramSocket serverSocket;
     private DatagramChannel serverChannel;
-    private DatagramPacket datagramPacket;
     private InetSocketAddress address;
     private SocketAddress remoteAddress;
     private int remotePort;
@@ -97,10 +96,10 @@ public class Server {
     }
 
     public void close() throws IOException {
-        try {
-            send("Сервер отключён");
-        }
-        catch (Exception e) {}
+//        try {
+//            send("Сервер отключён");
+//        }
+//        catch (Exception e) {}
         serverChannel.close();
     }
 

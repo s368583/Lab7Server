@@ -36,7 +36,8 @@ public class CollectionFiller extends Command {
             CollectionDeque deque =  new CollectionDeque();
             jaxbContext = JAXBContext.newInstance(LabList.class);
             Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-            LabList labs = (LabList) jaxbUnmarshaller.unmarshal(new File(System.getProperty("user.dir")+"/Lab6Server/src/" + String.valueOf(object)));
+//            LabList labs = (LabList) jaxbUnmarshaller.unmarshal(new File(System.getProperty("user.dir")+"/Lab6Server/src/" + String.valueOf(object)));
+            LabList labs = (LabList) jaxbUnmarshaller.unmarshal(new File(String.valueOf(object)));
             for (LabWork labWork : labs.getLabs()) {
                 //System.out.println(labWork.toString());
                 deque.add(labWork);
